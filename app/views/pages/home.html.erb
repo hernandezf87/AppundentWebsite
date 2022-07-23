@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" href="/css/main.css.scss">
+    <link rel="<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <div class="container1">
+      <h1>Appundent</h1>
+      <div class="container2">
+        <div class="box">
+          <span></span>
+          <div class="content">
+            <h2>Accounts Setup</h2>
+            <p>Assistance in settings up emails accounts, help in getting your new phone up and running, stuck and cannot figure out your laptop or tablet or phone we can help you master your device. </p>
+          </div>
+        </div>
+        <div class="box">
+          <span></span>
+          <div class="content">
+            <h2>IOS Applications</h2>
+            <p>Swift Engineer facilitating cutting edge versions of Swift with Xcode, with a strong development in functional programming and algorithm practices.
+               Proven abilitity, and thorough understanding of executing applications  through Apple's lifecycle requirements for best user experience. In-depth understanding of Localization,
+                as well as  instructing basic Apple principles in both English and Spanish. </p>
+          </div>
+        </div>
+        <div class="box">
+            <span></span>
+            <div class="content">
+              <h2>QR Code</h2>
+              <p>We Create custom Quick Response Code (QRCode) for your Business, a QRCode can be links to your contact information, YouTube Channel, Website, Apps, etc,
+                we can add different colors to your QRCode to make them stand out and appealing. Contact us now to create your custom QRCode.</p>
+            </div>
+          </div>
+      </div>
+      <!--Footer section-->
+      <footer>
+        <div class="container3">
+          <div class="sec aboutus">
+            <h3>About Us</h3>
+            <p>Appundent is an innovative app development team specializing in iOS(Apple) apps. Get your
+              app created and placed in App Store. We lead new developers through one on one and team tutoring
+              of all ages. Learning to code with Swift Playgrounds up to Junior level App Development, guiding you
+              through your education in your career as a developer. <br>
+              We also build websites and place QR Codes for your personal or business needs. <br>
+              We serve in-person and remote (currently only remote for Health and Safety.)
+            </p>
+              <ul class="sci">
+                <li><a href="https://www.youtube.com/channel/UCmYmbWTKgplO3TV9-1Tx2cg"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+          </div>
+          <div class="sec quicklinks">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><%= link_to "Privacy", privacy_path %></li>
+              <li><%= link_to "Terms & Conditions", terms_path %></li>
+            </ul>
+          </div>
+          <div class="sec contact">
+            <h3>Contact Info</h3>
+            <ul class="info">
+              <li>
+                <span><i class="fas fa-map-marker"></i></span>
+                <span>Anywhere in the World,</span>
+              </li>
+              <li>
+                <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                <span><a href="tel:123456789">+ 1 (971) 337-0830 </a><br>
+                </span>
+              </li>
+              <li>
+                <span><i class="fas fa-envelope"></i></span>
+                <%= mail_to("appundent@gmail.com", "Email Appundent") %>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <div class="copyrightText">
+        <p>Copyright &#169; 2022 Appundent</p>
+      </div>
+    </div>
+  </body>
+</html>
